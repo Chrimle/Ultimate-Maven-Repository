@@ -27,11 +27,13 @@
     </licenses>
 
     <organization>
+        <!-- TODO: Update accordingly -->
         <name>Ultimate Maven Repository</name>
         <url>https://chrimle.github.io/Ultimate-Maven-Repository/</url>
     </organization>
 
     <developers>
+        <!-- TODO: Update accordingly -->
         <developer>
             <id>Chrimle</id>
             <name>Christopher Molin</name>
@@ -44,12 +46,14 @@
     </developers>
 
     <scm>
+        <!-- TODO: Update Accordingly-->
         <url>http://github.com/chrimle/Ultimate-Maven-Repository/tree/main</url>
         <connection>scm:git:git://github.com/chrimle/Ultimate-Maven-Repository.git</connection>
         <developerConnection>scm:git:ssh://github.com:chrimle/Ultimate-Maven-Repository.git</developerConnection>
     </scm>
 
     <distributionManagement>
+        <!-- TODO: Update Accordingly -->
         <repository>
             <id>github</id>
             <name>GitHub Chrimle Apache Maven Packages</name>
