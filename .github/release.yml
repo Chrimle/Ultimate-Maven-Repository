@@ -1,0 +1,20 @@
+# .github/release.yml
+# Defines the structure of the auto-generated "Release Notes" when creating a new Release via GitHub.
+# TODO: Each "label" corresponds to a GitHub Issue label. Update accordingly.
+
+changelog:
+  exclude: # PRs labelled with these will be excluded from the Release Notes.
+    labels:
+      - meta
+      - doc
+      - test
+  categories:
+    - title: New Features
+      labels:
+        - feat
+    - title: Bug Fixes
+      labels:
+        - bug
+    - title: Dependency Updates
+      labels:
+        - dependencies
