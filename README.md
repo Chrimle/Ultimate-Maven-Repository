@@ -14,9 +14,9 @@ This is a *template* repository, used for quickly setting up a GitHub repository
 - GitHub Pages
 - Citations
 
-## Step-by-Step Instructions
+# Step-by-Step Instructions
 
-### Included Files
+## Included Files
 
 This is the complete list of files included in this template. Each file may need additional attention, or mandatory changes.
 
@@ -28,7 +28,7 @@ This is the complete list of files included in this template. Each file may need
 |   🧐   | **MAY** be reviewed     |
 |  🗑️   | **MAY** be deleted      |
 
-#### Files
+### Files
 
 - [`/.github`](.github)<br/><br/>
   - [`/workflows`](.github/workflows)<br/><br/>
@@ -62,7 +62,9 @@ This is the complete list of files included in this template. Each file may need
 - [`README.md`](README.md) 🔧 <br/>
   This README file.<br/><br/>
 
-> [!TIP] Most files will have a "TODO" comment where attention is needed. It is recommended to use an IDE when resolving
+> [!TIP]
+> Most files will have a "TODO" comment where attention is needed. It is recommended to use an IDE when resolving
 > these comments, as IDEs will highlight these differently.
  
- 
+## Generating GPG keys for Uploading
+Follow [these](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key) instructions.
