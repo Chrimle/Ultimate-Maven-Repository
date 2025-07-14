@@ -60,7 +60,7 @@ This is the complete list of files included in this template. Each file may need
 - [`pom.xml`](pom.xml) 🔧 <br/>
   Maven Project file.<br/><br/>
 - [`README.md`](README.md) 🔧 <br/>
-  This README file.
+  This README file.<br/><br/>
 
 > [!TIP] Most files will have a "TODO" comment where attention is needed. It is recommended to use an IDE when resolving
 > these comments, as IDEs will highlight these differently.
