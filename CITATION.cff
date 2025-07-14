@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you want to reference this project, you could cite it as below."
+authors:
+- family-names: "Molin"
+  given-names: "Christopher"
+  orcid: "https://orcid.org/0009-0002-1005-3942"
+title: "Ultimate Maven Repository"
+version: 0.1.0
+date-released: 2025-07-14
+url: "https://github.com/Chrimle/Ultimate-Maven-Repository"
