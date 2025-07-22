@@ -47,9 +47,9 @@
 
     <scm>
         <!-- TODO: Update Accordingly-->
-        <url>http://github.com/chrimle/Ultimate-Maven-Repository/tree/main</url>
-        <connection>scm:git:git://github.com/chrimle/Ultimate-Maven-Repository.git</connection>
-        <developerConnection>scm:git:ssh://github.com:chrimle/Ultimate-Maven-Repository.git</developerConnection>
+        <url>http://github.com/chrimle/ultimate-maven-repository/tree/main</url>
+        <connection>scm:git:git://github.com/chrimle/ultimate-maven-repository.git</connection>
+        <developerConnection>scm:git:ssh://github.com:chrimle/ultimate-maven-repository.git</developerConnection>
     </scm>
 
     <distributionManagement>
@@ -57,12 +57,12 @@
         <repository>
             <id>github</id>
             <name>GitHub Chrimle Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/chrimle/Ultimate-Maven-Repository</url>
+            <url>https://maven.pkg.github.com/chrimle/ultimate-maven-repository</url>
         </repository>
         <snapshotRepository>
             <id>github</id>
             <name>GitHub Chrimle Apache Maven Snapshot Packages</name>
-            <url>https://maven.pkg.github.com/chrimle/Ultimate-Maven-Repository</url>
+            <url>https://maven.pkg.github.com/chrimle/ultimate-maven-repository</url>
         </snapshotRepository>
     </distributionManagement>
 
