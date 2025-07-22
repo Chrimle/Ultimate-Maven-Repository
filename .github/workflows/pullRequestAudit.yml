@@ -1,0 +1,34 @@
+name: Pull Request Auditor
+
+on:
+  pull_request:
+    types:
+      - opened
+      - labeled
+      - unlabeled
+      - edited
+      - synchronize
+      - ready_for_review
+
+jobs:
+  Label-Auditor:
+    name: Label Auditor
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            const categoriesRequiringSemanticVersion = ['feature', 'bug', 'javadocs'];
+            const requiredCategories = ['feature', 'bug', 'documentation', 'test', 'dependencies', 'meta', 'javadocs', 'refactor'];
+            const semanticVersions = ['MAJOR', 'MINOR', 'PATCH'];
+
+            const labels = context.payload.pull_request.labels;
+            if (labels.filter(label => requiredCategories.includes(label.name)).length == 0) {
+              throw new Error(`Pull Request requires one of the following labels: ${requiredCategories.join(', ')}`);
+            }
+            if (labels.filter(label => categoriesRequiringSemanticVersion.includes(label.name)).length > 0) {
+              if (labels.filter(label => semanticVersions.includes(label.name)).length == 0) {
+                throw new Error(`Pull Request requires a 'Semantic version'-label for the following labels: ${categoriesRequiringSemanticVersion.join(', ')}`);
+              }
+            }

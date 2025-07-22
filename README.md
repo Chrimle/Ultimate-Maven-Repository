@@ -36,6 +36,20 @@ This is the complete list of files included in this template. Each file may need
       Defines the GitHub Action check to be run on PRs and merged to `main`.<br/><br/>
     - [`maven-publish.yml`](.github/workflows/maven-publish.yml) 👀 <br/>
       Defines the GitHub Action for publishing the Maven Artifact to GitHub Packages & Maven Central Repository.<br/><br/>
+    - [`pullRequestAudit.yml`](.github/workflows/pullRequestAudit.yml) ✏️/🗑️ <br/>
+      PR Workflow Label checker. Requires:
+      - MAJOR
+      - MINOR
+      - PATCH
+      - bug
+      - dependencies
+      - documentation
+      - feature
+      - javadocs
+      - meta
+      - refactor
+      - test
+      <br/><br/>
   - [`CODEOWNERS`](.github/CODEOWNERS) ✏️/🗑️ <br/>
     Defines *owners* of files in the repository.<br/><br/>
   - [`dependabot.yml`](.github/dependabot.yml) 👀 <br/>
