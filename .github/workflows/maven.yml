@@ -14,6 +14,9 @@ on: # When this workflow shall be run. As-is, this workflow will run when "main"
   pull_request:
     branches: [ "main" ]
 
+permissions:
+  contents: read
+
 jobs:
   build:
     name: Maven Build
