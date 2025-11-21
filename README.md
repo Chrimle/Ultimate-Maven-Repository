@@ -8,11 +8,18 @@ This is a *template* repository, used for quickly setting up a GitHub repository
 - Maven Publish Workflow
   - Publish to Maven Central Repository
   - Publish to GitHub Packages
+- PR Labelling Audit Workflow
 - Auto Generate Release Notes
 - Sponsorships
 - Dependabot
 - GitHub Pages
 - Citations
+- Code of Conduct
+- Contribution Guidelines
+- Security Policy
+
+> This project also showcases the many features of GitHub, which are not all mandatory.
+> Below, is a summary of all provided files.
 
 # Step-by-Step Instructions
 
