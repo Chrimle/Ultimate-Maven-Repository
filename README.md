@@ -50,14 +50,20 @@ This is the complete list of files included in this template. Each file may need
       - refactor
       - test
       <br/><br/>
+  - [`CODE_OF_CONDUCT.md`](.github/CODE_OF_CONDUCT) ✏️/🗑️ <br/>
+    Defines the *Code of Conduct* of the project.<br/><br/>
   - [`CODEOWNERS`](.github/CODEOWNERS) ✏️/🗑️ <br/>
     Defines *owners* of files in the repository.<br/><br/>
+  - [`CONTRIBUTING.md`](.github/CONTRIBUTING) ✏️/🗑️ <br/>
+    Defines the *Contributing* Guidelines of the project.<br/><br/>
   - [`dependabot.yml`](.github/dependabot.yml) 👀 <br/>
     Configures *Dependabot*.<br/><br/>
   - [`FUNDING.yml`](.github/FUNDING.yml) ✏️/🗑️ <br/>
     Configuration for *GitHub Sponsorships*.<br/><br/>
   - [`release.yml`](.github/release.yml) ✏️/🗑️ <br/>
     Configuration for Auto-Generated Release Notes based on *GitHub Issue Labels*.<br/><br/>
+  - [`SECURITY.md`](.github/SECURITY) ✏️/🗑️ <br/>
+    Defines the *Security* Policy of the project.<br/><br/>
 - [`.mvn`](.mvn)
   - [`jvm.config`](.mvn/jvm.config) 🧐 <br/>
     Maven JVM Config file.<br/><br/>
