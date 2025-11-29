@@ -8,4 +8,4 @@ updates:
   - package-ecosystem: "maven" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "weekly" # How often Dependabot shall scan and push dependency updates to the repository.
+      interval: "daily" # How often Dependabot shall scan and push dependency updates to the repository.
