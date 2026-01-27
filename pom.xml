@@ -77,7 +77,7 @@
         <maven.compiler.target>17</maven.compiler.target>
         <!-- === Spotless === -->
         <spotless.check.skip>false</spotless.check.skip>
-        <spotless-maven-plugin.version>3.1.0</spotless-maven-plugin.version>
+        <spotless-maven-plugin.version>3.2.0</spotless-maven-plugin.version>
         <!-- Publish to Maven Central Repository -->
         <maven-gpg-plugin.version>3.2.8</maven-gpg-plugin.version>
         <maven-source-plugin.version>3.4.0</maven-source-plugin.version>
