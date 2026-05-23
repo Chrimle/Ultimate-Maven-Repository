@@ -8,10 +8,12 @@ This is a *template* repository, used for quickly setting up a GitHub repository
 - Maven Publish Workflow
   - Publish to Maven Central Repository
   - Publish to GitHub Packages
-- PR Labelling Audit Workflow
+- Pull Request Label Auditing
+  - See [Label-Auditor](https://github.com/Chrimle/Label-Auditor).
 - Auto Generate Release Notes
 - Sponsorships
 - Dependabot
+  - Maven, GitHub Actions & GitHub Pages
 - GitHub Pages
 - Citations
 - Code of Conduct
@@ -74,24 +76,25 @@ This is the complete list of files included in this template. Each file may need
 - [`.mvn`](.mvn)
   - [`jvm.config`](.mvn/jvm.config) 🧐 <br/>
     Maven JVM Config file.<br/><br/>
+- [`/docs`](/docs)<br/><br/>
+  - [`_config.yml`](_config.yml) 🔧 <br/>
+    Config for *GitHub Pages*.<br/><br/>
+  - [`README.md`](README.md) 🔧 <br/>
+    This README file.<br/><br/>
 - [`.gitattributes`](.gitattributes) 🧐 <br/>
   Sets `lf` as EOF.<br/><br/>
 - [`.gitignore`](.gitignore) 🧐 <br/>
   Default `.gitignore` provided by GitHub, with `.idea`.<br/><br/>
-- [`_config.yml`](_config.yml) 🔧 <br/>
-  Config for *GitHub Pages*.<br/><br/>
 - [`CITATION.cff`](CITATION.cff) ✏️/🗑️ <br/>
   For citing/referencing the repository.<br/><br/>
 - [`LICENSE`](LICENSE) 🧐 <br/>
   Default *Apache 2.0 License*.<br/><br/>
 - [`pom.xml`](pom.xml) 🔧 <br/>
   Maven Project file.<br/><br/>
-- [`README.md`](README.md) 🔧 <br/>
-  This README file.<br/><br/>
 
 > [!TIP]
 > Most files will have a "TODO" comment where attention is needed. It is recommended to use an IDE when resolving
-> these comments, as IDEs will highlight these differently.
+> these comments, as IDEs will highlight these for you!
  
 ## Generating GPG keys for Uploading
 Follow [these](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key) instructions.
