@@ -10,8 +10,7 @@ on:
       - synchronize
       - ready_for_review
 
-permissions:
-  contents: read
+permissions: {}
 
 jobs:
   Label-Auditor:
