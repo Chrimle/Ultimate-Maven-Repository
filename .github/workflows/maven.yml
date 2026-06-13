@@ -14,7 +14,7 @@ on: # When this workflow shall be run. As-is, this workflow will run when "main"
   pull_request:
     branches: [ "main" ]
 
-permissions: {}
+permissions: { }
 
 jobs:
   build:
@@ -23,12 +23,12 @@ jobs:
     permissions:
       contents: read
     steps:
-    - uses: actions/checkout@v6
-    - name: Set up JDK
-      uses: actions/setup-java@v5
-      with:
-        java-version: '17' # TODO: Update accordingly. See "strategy matrix" for testing multiple versions.
-        distribution: 'temurin'
-        cache: maven
-    - name: Maven Build
-      run: mvn -B package --no-transfer-progress --file pom.xml
+      - uses: actions/checkout@v6
+      - name: Set up JDK
+        uses: actions/setup-java@v5
+        with:
+          java-version: '17' # TODO: Update accordingly. See "strategy matrix" for testing multiple versions.
+          distribution: 'temurin'
+          cache: maven
+      - name: Maven Build
+        run: mvn -B package --no-transfer-progress --file pom.xml
