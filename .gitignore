@@ -17,3 +17,6 @@ buildNumber.properties
 .classpath
 # IntelliJ
 .idea
+
+# Track The google-java-format Settings
+!.idea/google-java-format.xml

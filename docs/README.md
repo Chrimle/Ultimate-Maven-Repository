@@ -73,6 +73,9 @@ This is the complete list of files included in this template. Each file may need
     Configuration for Auto-Generated Release Notes based on *GitHub Issue Labels*.<br/><br/>
   - [`SECURITY.md`](.github/SECURITY) ✏️/🗑️ <br/>
     Defines the *Security* Policy of the project.<br/><br/>
+- [`.idea`](.idea)
+  - [`google-java-format`](/.idea/google-java-format.xml) 🗑️ <br/>
+    Enables `google-java-format` in IntelliJ.<br/><br/>
 - [`.mvn`](.mvn)
   - [`jvm.config`](.mvn/jvm.config) 🧐 <br/>
     Maven JVM Config file.<br/><br/>
