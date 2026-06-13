@@ -21,4 +21,4 @@ jobs:
 
     steps:
       - name: Label Auditor
-        uses: Chrimle/Label-Auditor@v0.1.0
+        uses: Chrimle/Label-Auditor@cd3700cdb68e92706a422ba67ec98a22660bd86c # v0.2.0
