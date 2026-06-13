@@ -74,6 +74,12 @@ This is the complete list of files included in this template. Each file may need
   - [`SECURITY.md`](.github/SECURITY) ✏️/🗑️ <br/>
     Defines the *Security* Policy of the project.<br/><br/>
 - [`.idea`](.idea)
+  - [`/copyright`](/.idea/copyright)
+    - [`Apache_2_0.xml`](/.idea/copyright/Apache_2_0.xml) ✏️/🗑️ <br/>
+      Defines the *copyright header* to be inserted into project files.
+    - [`profiles_settings.xml`](/.idea/copyright/profiles_settings.xml) ✏️/🗑️ <br/>
+      Enables the insertion of the *copyright header* to project files.
+      <br/><br/>
   - [`google-java-format`](/.idea/google-java-format.xml) 🗑️ <br/>
     Enables `google-java-format` in IntelliJ.<br/><br/>
 - [`.mvn`](.mvn)
