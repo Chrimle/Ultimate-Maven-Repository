@@ -9,13 +9,22 @@ updates:
     directory: /
     schedule:
       interval: daily
+    # TODO: Configure auto-assigning Pull Requests
+    assignees:
+      - "Chrimle"
 
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: daily
+    # TODO: Configure auto-assigning Pull Requests
+    assignees:
+      - "Chrimle"
 
   - package-ecosystem: bundler
     directory: /docs
     schedule:
       interval: daily
+    # TODO: Configure auto-assigning Pull Requests
+    assignees:
+      - "Chrimle"
