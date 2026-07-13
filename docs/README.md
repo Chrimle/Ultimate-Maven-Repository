@@ -65,7 +65,7 @@ This is the complete list of files included in this template. Each file may need
     Defines *owners* of files in the repository.<br/><br/>
   - [`CONTRIBUTING.md`](.github/CONTRIBUTING) ✏️/🗑️ <br/>
     Defines the *Contributing* Guidelines of the project.<br/><br/>
-  - [`dependabot.yml`](.github/dependabot.yml) 👀 <br/>
+  - [`dependabot.yml`](.github/dependabot.yml) ✏️ <br/>
     Configures *Dependabot*.<br/><br/>
   - [`FUNDING.yml`](.github/FUNDING.yml) ✏️/🗑️ <br/>
     Configuration for *GitHub Sponsorships*.<br/><br/>
